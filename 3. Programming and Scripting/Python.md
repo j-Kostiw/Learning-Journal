@@ -89,3 +89,9 @@ XP focuses on continuous testing/integration, not waterfall
 Python’s unittest is for test construction and execution
 
 None behaves like False in logical expressions
+
+![image](https://github.com/user-attachments/assets/d96b9db0-a772-430d-8bef-dad39bd868dd)
+
+
+
+

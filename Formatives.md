@@ -21,3 +21,7 @@ Summary
 I really enjoyed the project you've shown here. Pay particular attention to points that can be overlooked in the assessment.
 
 
+
+
+
+[Data Architecture - Formative 3.docx](https://github.com/user-attachments/files/24818587/Data.Architecture.-.Formative.3.docx)

@@ -1,0 +1,163 @@
+The Context: Why MLOps Exists
+Machine learning models often work well in experimentation but fail when deployed into real‑world systems. This “production gap” happens because:
+- Production data behaves differently from training data.
+- Manual deployment processes introduce errors.
+- Monitoring is missing or insufficient.
+- Teams (data science, engineering, DevOps) work in silos.
+MLOps addresses these issues by combining DevOps, DataOps, and ML engineering into a unified operational discipline.
+
+2. What MLOps Is and Why It Matters
+Definition
+MLOps is the set of practices, tools, and processes that manage the end‑to‑end machine learning lifecycle, including:
+- Data preparation
+- Model training
+- Packaging
+- Deployment
+- Monitoring
+- Governance
+- Continuous improvement
+It aims to make ML systems reliable, scalable, reproducible, and auditable.
+Why It’s Strategic
+MLOps is not just a technical framework. It:
+- Reduces operational risk
+- Speeds up innovation
+- Ensures compliance
+- Improves collaboration
+- Enables consistent, repeatable ML delivery
+Organisations with strong MLOps capabilities deploy models faster and maintain them more effectively.
+
+3. Case Study: Uber’s Michelangelo Platform
+Uber built Michelangelo to solve challenges such as:
+- Slow deployment cycles
+- Inconsistent model performance
+- Lack of standardisation across teams
+Michelangelo delivered:
+- End‑to‑end MLOps automation
+- One‑click deployment
+- 5,000+ models in production
+- 10 million predictions per second
+- Deployment time reduced from months to days
+Why This Matters
+Michelangelo shows that:
+- Centralised platforms reduce fragmentation
+- Automation accelerates delivery
+- Standardisation improves reliability
+- Real‑time ML requires robust infrastructure
+These principles can be applied in any organisation, even at smaller scale.
+
+4. Core Components of MLOps
+Model Tracking
+Captures:
+- Experiments
+- Hyperparameters
+- Metrics
+- Dataset versions
+- Code versions
+This ensures reproducibility and makes debugging easier.
+Model Registry
+A central repository that stores:
+- Model versions
+- Metadata
+- Approval status
+- Deployment history
+It enables safe rollbacks and auditability.
+CI/CD Pipelines
+Automate:
+- Data validation
+- Model training
+- Model testing
+- Deployment
+This reduces human error and speeds up iteration.
+Monitoring & Observability
+Tracks:
+- Prediction quality
+- Data drift
+- Concept drift
+- Latency and throughput
+- System anomalies
+Monitoring is essential because ML models degrade silently.
+Collaboration & Handover
+Ensures smooth transitions between:
+- Data scientists
+- ML engineers
+- DevOps
+- Product teams
+Clear ownership prevents operational gaps.
+
+5. Automating the ML Lifecycle
+Automation supports:
+- Scheduled retraining
+- Automated validation
+- Automated deployment
+- Automated rollback
+Benefits include:
+- Faster updates
+- Fewer manual errors
+- More consistent performance
+- Better reproducibility
+Automation is the backbone of modern MLOps.
+
+6. Model Packaging & Deployment
+Packaging Options
+- Docker: Standardises environments
+- ONNX: Optimises models for cross‑platform inference
+Deployment Methods
+- REST APIs
+- Embedded applications
+- Cloud ML services (AWS SageMaker, Azure ML, GCP Vertex AI)
+Deployment Strategies
+- Blue‑Green: Two identical environments; switch traffic when ready
+- Canary: Release to a small subset of users first
+- A/B Testing: Compare two models simultaneously
+These strategies reduce risk and improve user experience.
+
+7. Monitoring in Production
+Monitoring ensures models remain accurate and reliable. Key areas include:
+Performance Metrics
+- Accuracy, precision, recall
+- Calibration
+- Confidence scores
+Data Drift
+Input data distribution changes over time.
+Concept Drift
+The relationship between features and target changes.
+System Metrics
+- Latency
+- Throughput
+- Error rates
+Alerts should trigger when thresholds are breached.
+
+8. Responding to Model Decay
+When performance drops:
+- Rollback to a stable version
+- Retrain with fresh data
+- Tune hyperparameters
+- Improve feature engineering
+- Investigate data quality issues
+Retraining frequency depends on:
+- Data volatility
+- Business requirements
+- Risk tolerance
+
+9. Long‑Term Model Management
+Models are not static—they evolve. Long‑term management includes:
+Governance
+- Documentation
+- Model lineage
+- Access control
+- Compliance (e.g., GDPR, AI Act)
+Adaptation
+- Continuous monitoring
+- Scheduled retraining
+- Updating features and pipelines
+Collaboration
+Cross‑functional alignment ensures models remain useful and safe.
+
+10. Key Takeaways
+- MLOps makes ML reliable, scalable, and auditable.
+- Automation and monitoring are essential for production success.
+- Deployment strategies reduce risk and improve stability.
+- Models require ongoing care, not one‑off deployment.
+- Cross‑team collaboration is crucial for long‑term impact.
+
+If you'd like, I can turn this into a one‑page revision sheet, a teaching script, or a diagram‑based summary depending on how you plan to use it.

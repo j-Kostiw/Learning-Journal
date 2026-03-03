@@ -1,0 +1,221 @@
+Advanced data products are only valuable if they are:
+
+Built around real user needs
+
+Intuitive and accessible
+
+Designed to support decision-making
+
+Iteratively improved through feedback
+
+Technical sophistication alone does not create value — usability and relevance do.
+
+2. Why User Requirements Matter in Data Products
+
+Clear user requirements:
+
+Prevent building technically impressive but unused tools
+
+Align product functionality with business goals
+
+Reduce rework and redesign
+
+Improve adoption and stakeholder satisfaction
+
+In the broader module context (AI-enabled, scalable data products), this ensures solutions are not just intelligent — but usable and trusted.
+
+3. Case Study: Enhancing Patient Care
+
+The National Health Service faced challenges predicting patient deterioration.
+
+Identified User Requirements
+
+Real-time clinical data integration
+
+Predictive analytics to flag at-risk patients
+
+Clear, actionable visualisations
+
+Ease of use for clinicians under time pressure
+
+Human-Centric Design Principles Applied
+
+Simplicity in dashboard layout
+
+Accessibility and clarity of metrics
+
+User control and interpretability
+
+Real-time alerts without overload
+
+Outcomes
+
+Reduced ICU mortality
+
+Improved clinician decision-making
+
+Higher user satisfaction
+
+Key Insight: Data products in high-stakes environments must balance advanced analytics with cognitive simplicity.
+
+4. Defining User Requirements in Data Product Development
+
+Effective requirement gathering includes:
+
+User interviews
+
+Stakeholder workshops
+
+Observation of workflows
+
+Persona development
+
+Identifying pain points and success criteria
+
+Strong Requirements Are:
+
+Specific
+
+Measurable
+
+Prioritised
+
+Linked to real user tasks
+
+They should define:
+
+What decisions users need to make
+
+What information they require
+
+What constraints they operate under
+
+What success looks like
+
+5. Human-Centric Design Principles
+
+Human-centric design ensures data products are:
+
+1. Simple and Clear
+
+Avoid clutter
+
+Focus on decision-critical information
+
+Use meaningful visual hierarchy
+
+2. Consistent
+
+Standardised navigation and interactions
+
+Predictable layouts
+
+3. Accessible and Inclusive
+
+Colour contrast compliance
+
+Clear typography
+
+Screen-reader compatibility
+
+Avoiding reliance on colour alone
+
+4. User-Controlled
+
+Filters and drill-down options
+
+Clear feedback mechanisms
+
+Transparent algorithms where possible
+
+6. Implementation: From Requirements to Wireframes
+
+The session activities reinforce practical application:
+
+Activity 1: User Personas & Needs
+
+Translate interviews into personas
+
+Identify core user goals
+
+Map required features to real problems
+
+This ensures the product solves real tasks, not assumed ones.
+
+Activity 2: Wireframing & Iteration
+
+Design dashboard structure based on user needs
+
+Conduct peer usability evaluation
+
+Refine based on feedback
+
+This mirrors real-world agile product development cycles.
+
+7. The Role of Iteration
+
+Human-centric data products are not built once — they evolve.
+
+Key elements:
+
+Prototype early
+
+Gather structured feedback
+
+Test usability
+
+Refine continuously
+
+Iteration reduces risk and improves adoption.
+
+8. Strategic Connection to Advanced Data Products
+
+From the previous session (Advanced Data Products), we learned about:
+
+Predictive analytics
+
+Recommendation systems
+
+Decision support systems
+
+APIs and scalable architectures
+
+This session reinforces that:
+
+Advanced functionality must be matched with human-centred usability.
+
+Without user-centred design:
+
+Predictive tools go unused
+
+Dashboards overwhelm users
+
+Decision support systems create friction
+
+AI outputs are distrusted
+
+Human-centric design bridges the gap between analytics capability and business value.
+
+9. Essential Takeaways
+
+Well-defined user requirements drive product success
+
+Human-centric design improves adoption and accessibility
+
+Simplicity increases trust in advanced analytics
+
+Iterative development strengthens effectiveness
+
+Usability is a competitive advantage in data products
+
+10. Reflection for Organisations
+
+To enhance your data products, consider:
+
+Are user needs clearly defined before development begins?
+
+Are dashboards designed for decisions, not just data display?
+
+Are accessibility standards embedded from the start?
+
+Is feedback systematically collected and acted upon?

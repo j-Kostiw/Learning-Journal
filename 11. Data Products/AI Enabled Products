@@ -1,0 +1,101 @@
+AI-Enabled Data Products
+
+Source:
+
+1. Purpose of the Session
+Understand AI and Machine Learning (ML) in data products
+Learn how to design, build, and evaluate AI-enabled solutions
+Explore practical integration methods into data pipelines
+2. Core Concepts (Knowledge – KSB Alignment)
+AI vs Machine Learning
+AI: Simulates human decision-making
+ML: Learns patterns from data without explicit programming
+Types of ML:
+Supervised
+Unsupervised
+Reinforcement
+Role in Data Products
+Enables:
+Prediction (e.g. forecasting)
+Automation
+Personalisation
+Used across industries (healthcare, finance, retail)
+Example (Case Study)
+IBM Watson Health:
+Analysed large medical datasets
+Improved diagnosis accuracy
+Enabled personalised healthcare
+3. AI in the Data Engineering Lifecycle (Skills – KSB)
+Integration into Data Pipelines
+
+Three main approaches:
+
+Pre-trained models via API
+Fast to implement
+Low customisation
+AutoML tools
+Moderate effort
+No deep ML expertise required
+Fine-tuning models
+Higher accuracy
+Requires more data and expertise
+Full Model Lifecycle (Context)
+Data collection
+Data preparation
+Model training
+Deployment
+Monitoring and updating
+4. Evaluating AI Solutions (Skills – KSB)
+
+Key comparison factors:
+
+Accuracy
+Speed
+Ease of use
+Business value
+When to Use Custom Models
+When:
+Business problem is complex
+High accuracy is required
+Off-the-shelf solutions are insufficient
+Ongoing Responsibilities
+Monitor performance in production
+Maintain and retrain models
+Ensure reliability and scalability
+5. Importance of Data Quality (Knowledge)
+High-quality data directly impacts:
+Model accuracy
+Reliability of predictions
+Poor data leads to poor AI outcomes
+6. Key Takeaways (Exam Focus)
+AI enhances data products through automation and prediction
+Multiple integration approaches exist — choose based on:
+Speed vs accuracy vs complexity
+Data quality is critical
+AI models require:
+Deployment
+Monitoring
+Continuous improvement
+7. KSB Mapping
+Knowledge
+AI/ML concepts and types
+Role of AI in data products
+Data quality and model lifecycle
+Skills
+Integrating AI into pipelines
+Comparing and selecting AI approaches
+Evaluating model performance
+Behaviours
+Critical thinking when choosing solutions
+Continuous improvement (monitoring and retraining models)
+Awareness of business value and impact
+8. Simple Mental Model to Remember
+
+AI Data Product Flow:
+
+Data →
+Model →
+Deployment →
+Monitoring →
+Improvement
+

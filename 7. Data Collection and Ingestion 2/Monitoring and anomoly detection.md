@@ -298,3 +298,20 @@ Link monitoring to business outcomes
 A distinction-level apprentice:
 
 Designs systems that don’t just work — they are observable, predictable, and resilient
+
+Prometheus and Grafana are essential tools for monitoring data ingestion pipelines, providing metrics collection, alerting, and visualisation to ensure system reliability and performance.
+
+
+Forecasting techniques like ARIMA and SARIMAX are crucial for predicting future data ingestion rates, allowing for effective capacity planning and preventing system overloads.
+
+
+Anomaly detection methods, such as Isolation Forest and Seasonal Hybrid ESD, are vital for identifying unusual patterns in data streams, helping to detect system failures, security breaches, and operational issues.
+
+
+Integrating Prometheus Alertmanager with incident management platforms like PagerDuty enhances operational responsiveness by ensuring that critical incidents are promptly addressed and resolved.
+
+
+Understanding and addressing common ingestion issues, such as consumer lag, broker failures, and message loss, is essential for maintaining robust and reliable data pipelines.
+
+
+Exploring advanced anomaly detection methods and implementing comprehensive monitoring solutions like the Elastic Stack (ELK) can significantly enhance the ability to manage and analyse complex data systems.

@@ -25,13 +25,17 @@ Full Explanation
 
 BuyOnline tracks user activity in real time by:
 
-Defining schemas (Avro)
+Defining schemas (Avro)*
 Serialising data
 Sending events to Kafka
 Business Benefits
 Consistency → standardised data format
 Efficiency → reduced data size
 Flexibility → schema evolution
+
+* Apache Avro is a data serialisation system that provides a compact, fast, binary data format. It uses
+JSON for defining data types and protocols and serialises data into a compact binary format.
+
 Instructor Insight
 
 This is a full pipeline example:

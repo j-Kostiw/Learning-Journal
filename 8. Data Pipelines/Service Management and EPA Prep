@@ -1,0 +1,325 @@
+Service management is about ensuring that data pipelines continue to deliver reliable, accurate, and trustworthy data after they are built.
+
+From the session aim :
+
+This topic is not about building systems — it is about:
+
+Maintaining them
+Monitoring them
+Responding when they fail
+Communicating impact
+Instructor Insight
+
+This is where many apprentices lose marks:
+
+Building a pipeline shows skill — operating it shows professionalism
+
+2. The “9 AM Dashboard Disaster” (Critical Case Study)
+
+From page 3 :
+
+A pipeline:
+
+Ran successfully
+Produced no usable data
+Failed silently due to a schema change
+What actually went wrong?
+
+Technically:
+
+API schema changed
+No validation caught it
+No alert triggered
+
+Operationally:
+
+No monitoring for correctness
+No ownership of data quality
+Business Impact
+Dashboards showed incorrect data
+Decisions were made on bad information
+Applied Understanding
+
+This example teaches a distinction-level concept:
+
+A pipeline “running” does NOT mean it is “working”
+
+EPA-Level Answer Example
+
+A strong response would say:
+
+“The failure highlights the importance of observability beyond uptime, including schema validation and data quality checks to ensure correctness.”
+
+3. What is Service Management?
+
+From page 9 :
+
+Service management ensures reliability, availability, and trust in data systems through monitoring, maintenance, and ownership.
+
+Applied Explanation
+
+Service management answers the question:
+
+“What happens after the pipeline is deployed?”
+
+It includes:
+
+Monitoring system health
+Detecting issues early
+Maintaining performance
+Ensuring stakeholders trust the data
+Instructor Insight
+
+At EPA level:
+
+Data engineering is not complete until the system is observable, reliable, and owned
+
+4. The Five Pillars of Service Management
+
+From diagram on page 10 :
+
+Reliability
+Availability
+Observability
+Accountability
+Continuous improvement
+Applied Understanding
+
+These are not abstract — they directly map to real actions:
+
+Reliability
+
+Systems produce correct data consistently
+
+Availability
+
+Systems are accessible when needed
+
+Observability
+
+You can understand system behaviour (logs, metrics, alerts)
+
+Accountability
+
+Someone owns the pipeline
+
+Continuous Improvement
+
+Systems are reviewed and improved after incidents
+
+Instructor Insight
+
+A strong apprentice demonstrates all five in their examples, not just definitions.
+
+5. Observability (CRITICAL FOR EPA)
+
+From knowledge check (page 8) :
+
+Observability is the ability to monitor, measure, and understand system behaviour.
+
+Applied Explanation
+
+Observability is what allows you to answer:
+
+Why did this fail?
+Where is the issue?
+What is the impact?
+Practical Components
+Logs → detailed records
+Metrics → performance data
+Alerts → trigger response
+Instructor Insight
+
+This is a high-frequency EPA concept:
+
+Without observability, you cannot diagnose or improve systems
+
+6. Monitoring & Maintenance
+
+From page 11 :
+
+Monitoring involves:
+
+Tracking job status
+Measuring latency and errors
+Using dashboards and alerts
+Applied Understanding
+
+Monitoring is not just about detecting failure — it is about:
+
+Detecting degradation
+Identifying trends
+Preventing incidents
+Real Example
+Rising latency → system under strain
+Increasing error rate → data quality issue
+Instructor Insight
+
+Monitoring should be proactive, not reactive
+
+7. Incident Response & Recovery
+
+From page 12 :
+
+Incident management follows a structured process: Detect → Diagnose → Resolve
+
+Applied Explanation
+
+When something fails, a strong engineer:
+
+Detects the issue quickly (alerts)
+Diagnoses the root cause (logs, metrics)
+Resolves the issue (fix or rollback)
+Communicates impact clearly
+Documents lessons learned
+Key Behaviour
+
+Staying calm and structured during failure is as important as technical skill
+
+EPA Insight
+
+You will often be asked:
+
+“Tell me about a time something went wrong”
+
+This is where you demonstrate:
+
+Technical skill
+Communication
+Ownership
+8. The EPA – What You Are Actually Being Assessed On
+
+From page 14–15 :
+
+You are assessed through:
+
+Project presentation
+Professional discussion
+But more importantly:
+
+You are assessed on:
+
+Knowledge
+
+What you understand
+
+Skills
+
+What you can do
+
+Behaviours
+
+How you work
+
+Instructor Insight
+
+Many apprentices focus only on:
+
+“What I built”
+
+But EPA wants:
+
+“How I think, respond, and improve”
+
+9. Preparing for EPA (STAR Method)
+
+From page 16 :
+
+STAR = Situation, Task, Action, Result
+
+Applied Use
+
+When answering questions:
+
+Situation → context
+Task → responsibility
+Action → what YOU did
+Result → outcome + learning
+Example (Improved Answer)
+
+Weak:
+
+“I fixed a pipeline issue”
+
+Strong:
+
+“I identified a schema mismatch causing ingestion failure, implemented validation checks, and reduced data errors by 40%”
+
+Instructor Insight
+
+Results + learning = distinction-level answers
+
+10. What Good EPA Evidence Looks Like
+
+From page 17 :
+
+Strong evidence:
+
+Specific
+Outcome-focused
+Linked to KSBs
+Shows learning
+Applied Understanding
+
+Even simple projects can score highly if you explain:
+
+What you did
+Why you did it
+What improved
+What you learned
+11. What This Topic Is REALLY Testing
+
+This topic brings everything together:
+
+You must show:
+
+You can operate systems
+You can handle failure
+You can communicate clearly
+You can reflect and improve
+12. KSB Application Summary (What You Can Now DO)
+
+This is the key part — how this translates into EPA performance.
+
+Knowledge (K)
+
+You now demonstrate:
+
+K6 (System performance & reliability)
+You understand how monitoring and observability ensure system health.
+K10 (Governance & quality)
+You understand the importance of data correctness, not just pipeline execution.
+Skills (S)
+
+You can now:
+
+S4 (Monitoring & evaluation)
+Monitor pipelines, interpret metrics, and detect anomalies.
+S5 (Problem solving)
+Diagnose and resolve pipeline failures using structured approaches.
+S8 (Communication)
+Explain incidents, impacts, and resolutions clearly to stakeholders.
+Behaviours (B)
+
+You demonstrate:
+
+B1 (Responsibility)
+You take ownership of pipeline reliability and data quality.
+B2 (Continuous improvement)
+You learn from incidents and improve systems.
+B4 (Professionalism)
+You communicate clearly and act calmly during failures.
+13. Final Instructor Insight
+
+A distinction-level apprentice:
+
+Does not just build systems — they ensure those systems are trusted, observable, and continuously improving
+
+14. Final Upgrade to Your Approach (Important)
+
+From your feedback, your notes now consistently:
+
+Explain concept → application → EPA use
+Show how to answer questions
+Link directly to KSB performance
+Reduce surface-level bullet points

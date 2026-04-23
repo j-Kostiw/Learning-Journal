@@ -1,0 +1,323 @@
+This topic is about ensuring that data entering your pipelines is accurate, consistent, and useful, and then enhancing it to deliver greater business value.
+
+From the session aim :
+
+You are expected to:
+
+Identify data quality issues
+Apply cleansing techniques
+Enrich datasets using additional data
+Instructor Insight
+
+At EPA level, this is a critical shift:
+
+Pipelines don’t fail because of code — they fail because of bad data
+
+2. Real-World Case – Airline Loyalty Failure
+
+From page 3 :
+
+A global campaign failed due to:
+
+18% invalid/missing emails
+12% duplicate IDs
+Data spread across multiple systems
+What this actually shows
+
+This is not just a “data issue” — it is a pipeline failure upstream:
+
+No validation rules
+No deduplication
+No standardisation
+Business Impact
+Campaign ROI dropped by 40%
+Applied Understanding
+
+At EPA level, you should say:
+
+“Poor data quality directly impacts business outcomes by reducing the effectiveness of downstream analytics and operations.”
+
+3. What is “Bad Data”? (Foundation Concept)
+
+From page 10 :
+
+Bad data includes:
+
+Incomplete values
+Inconsistent formats
+Inaccurate or invalid entries
+Duplicate records
+Applied Explanation
+
+The key insight is:
+
+Even small inconsistencies can break entire pipelines
+
+Example from the bad CSV diagram (page 9):
+
+Mixed country formats (“UK”, “United Kingdom”)
+Missing fields
+Poor formatting
+Instructor Insight
+
+This links directly to earlier topics:
+
+Bad data → breaks ingestion → breaks analytics → breaks decisions
+
+4. Identifying Data Quality Issues
+
+From the diagram on page 11 :
+
+Six core issues include:
+
+Inconsistency
+Inaccuracy
+Invalid data
+Duplication
+Incomplete data
+Imprecision
+Applied Understanding
+
+A strong data engineer doesn’t wait for errors — they:
+
+Profile data early
+Identify patterns of failure
+Design pipelines to handle them
+EPA-Level Thinking
+
+“I implemented validation and profiling steps to detect inconsistencies early in the pipeline.”
+
+5. Standardisation (Making Data Usable)
+
+From page 12 :
+
+Standardisation ensures:
+
+Consistent formats
+Normalised categories
+Uniform structure
+Applied Example
+Dates → ISO format
+Country → “UK” → “United Kingdom”
+Text → consistent casing
+Why this matters
+
+Without standardisation:
+
+Joins fail
+Aggregations break
+Analysis becomes unreliable
+Instructor Insight
+
+Standardisation enables integration across systems
+
+6. Deduplication (Ensuring One Source of Truth)
+
+From page 13 :
+
+Techniques include:
+
+Exact matching
+Fuzzy matching
+Unique identifiers
+Applied Example
+
+From the slide:
+
+“123 Main St” vs “123 Main Street”
+Real Understanding
+
+Deduplication is not just removal — it is:
+
+Identifying duplicates
+Deciding how to merge
+Preserving correct information
+EPA Insight
+
+A strong answer explains trade-offs:
+
+“Fuzzy matching improves accuracy but increases computational complexity.”
+
+7. Validation (Preventing Errors Early)
+
+From page 14 :
+
+Validation includes:
+
+Data type checks
+Range checks
+Constraint enforcement
+Cross-field consistency
+Applied Understanding
+
+Validation should happen:
+
+At ingestion, not after failure
+
+Example
+Email format validation
+Age must be > 0
+Date must be valid
+Instructor Insight
+
+This directly links to the earlier “silent failure” scenario:
+
+Validation prevents pipelines from “running but failing”
+
+8. Data Enrichment (Adding Value)
+
+From page 16 :
+
+Enrichment adds new, meaningful context to existing data
+
+Applied Techniques
+Internal joins (e.g. customer status)
+External APIs (e.g. weather, demographics)
+Derived fields (e.g. age, spend metrics)
+Key Insight
+
+Cleansing fixes data — enrichment makes it valuable
+
+EPA-Level Answer
+
+“I enriched the dataset using external APIs to provide additional context for analysis.”
+
+9. Integrating External Data
+
+From page 17 :
+
+Methods include:
+
+APIs (real-time)
+Static files (batch)
+Streaming feeds
+Applied Understanding
+
+Each method has trade-offs:
+
+APIs → flexible but latency-dependent
+Files → stable but delayed
+Streams → real-time but complex
+Instructor Insight
+
+This links back to ingestion patterns (Module 7):
+
+You must choose integration method based on use case
+
+10. Hackathon (Where This Becomes REAL)
+
+Now we bring in the supporting file because it adds real EPA-level application.
+
+From the hackathon brief :
+
+Part A – Pipeline Design
+
+You must:
+
+Combine sunrise/sunset + weather data
+Generate minute-level temperature data (~527,040 records)
+What this is REALLY testing
+
+Not just pipeline building — but:
+
+Data transformation logic
+Handling missing/interpolated values
+Documenting assumptions
+Critical Applied Insight
+
+From the brief:
+
+You must assume a linear trend between daily min/max temperatures
+
+This is data enrichment + modelling:
+
+You are generating new data from incomplete data
+EPA-Level Thinking
+
+A strong answer would say:
+
+“I derived minute-level temperature values by interpolating between daily minimum and maximum readings, ensuring consistency and documenting assumptions.”
+
+Part B – Pipeline Reuse (VERY IMPORTANT)
+
+From the brief :
+
+You must:
+
+Use someone else’s pipeline
+Adapt it to new data
+Handle schema differences
+What this tests
+
+This is one of the most important real-world skills:
+
+Pipelines must be reusable and adaptable
+
+Applied Insight
+
+This links directly to:
+
+Schema evolution
+Data validation
+Pipeline robustness
+EPA-Level Answer
+
+“I adapted the pipeline to handle schema differences by updating validation rules and transformation logic.”
+
+Part C & D – Advanced Thinking (Extension)
+
+These go beyond cleansing into:
+
+Modelling relationships
+Linking data to business outcomes
+Detecting anomalies
+Key Insight
+
+This is where:
+
+Data engineering → data science → business insight
+
+11. What This Topic Is REALLY Testing
+
+This topic is not just about cleaning data.
+
+It is testing whether you can:
+
+Ensure data quality at scale
+Design pipelines that prevent errors
+Add value through enrichment and modelling
+Adapt pipelines to new data sources
+12. KSB Application Summary (What You Can Now DO)
+Knowledge (K)
+
+You now demonstrate:
+
+K4 (Data structures & formats)
+You understand how inconsistencies and formats affect pipelines.
+K10 (Data quality & governance)
+You understand the importance of validation, cleansing, and accuracy.
+Skills (S)
+
+You can now:
+
+S2 (Data processing)
+Clean, transform, and enrich datasets within pipelines.
+S3 (Data analysis)
+Identify data quality issues and apply appropriate techniques.
+S5 (Pipeline development)
+Build pipelines that handle real-world messy data and schema changes.
+Behaviours (B)
+
+You demonstrate:
+
+B1 (Responsibility)
+You ensure data is accurate and fit for purpose.
+B2 (Continuous improvement)
+You refine pipelines to improve quality and reliability.
+B4 (Attention to detail)
+You recognise that small data issues have large impacts.
+13. Final Instructor Insight
+
+A distinction-level apprentice:
+
+Does not assume data is correct — they design systems that validate, clean, enrich, and adapt data to ensure it is trustworthy and valuable

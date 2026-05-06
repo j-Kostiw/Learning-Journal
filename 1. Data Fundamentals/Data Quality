@@ -1,1 +1,557 @@
 
+Processes to monitor and optimise the performance, availability, management and performance of data products.
+
+Key Concepts
+
+Reliable data products depend on high-quality data that is:
+
+accurate,
+available,
+timely,
+consistent,
+and dependable.
+
+Poor data quality affects:
+
+dashboards,
+reporting,
+machine learning,
+operational decisions,
+customer trust.
+
+A pharmaceutical case study demonstrated how poor integration and inconsistent practices caused challenges across multiple systems. Improvements were achieved through:
+
+governance frameworks,
+metadata management,
+standardisation,
+FAIR principles,
+and improved discoverability.
+Data Quality Metrics
+
+Five major metrics were introduced.
+
+Metric	Meaning
+Accuracy	Data reflects the real world correctly
+Integrity	Data is complete and not missing critical elements
+Consistency	Data follows the same standards everywhere
+Timeliness	Data is up to date and available when needed
+Reliability	Data remains dependable over time
+
+These metrics are essential for monitoring enterprise data products.
+
+Monitoring and Optimisation
+
+Data engineers improve performance through:
+
+validation pipelines,
+automated quality checks,
+lineage tracking,
+anomaly detection,
+standardised schemas,
+metadata management,
+monitoring KPIs.
+Example KPIs
+failed pipeline rates,
+missing field percentages,
+duplicate records,
+stale data frequency,
+ingestion latency.
+Data Quality Frameworks
+
+The DMAIC model was introduced as a structured improvement process:
+
+Define
+Measure
+Analyse
+Improve
+Control
+
+This supports continuous optimisation and governance of data systems.
+
+K3 — Data Normalisation Principles
+
+KSB:
+Data normalisation principles and the advantages they achieve in databases for data protection, redundancy, and inconsistent dependency.
+
+Key Concepts
+
+Data quality problems often arise from:
+
+duplicated records,
+inconsistent naming,
+missing attributes,
+conflicting values,
+poor integration.
+
+Normalisation supports:
+
+consistency,
+reduced redundancy,
+improved integrity,
+easier maintenance.
+Standardisation and Consistency
+
+A major theme was the importance of standardised data practices.
+
+Examples included:
+
+naming conventions,
+schemas,
+metadata standards,
+unique identifiers,
+common data structures.
+
+Without standardisation organisations experience:
+
+data silos,
+integration failures,
+inconsistent reporting.
+Unique Identifiers
+
+The distinction between:
+
+UIDs (system-unique),
+UUIDs (globally unique),
+
+was introduced.
+
+Why They Matter
+
+Unique identifiers:
+
+prevent duplication,
+support entity matching,
+improve integration,
+maintain referential consistency.
+HR Dashboard Example
+
+Every employee should have:
+
+one standard identifier,
+shared across payroll,
+performance reviews,
+HR systems,
+analytics platforms.
+Metadata Standards
+Dublin Core Metadata Initiative (DCMI)
+
+Provides metadata standards for describing digital resources.
+
+Supports:
+
+discoverability,
+classification,
+interoperability,
+governance.
+
+Used in:
+
+libraries,
+archives,
+government systems,
+educational repositories.
+K5 — Risks, Ethics and Data Quality
+
+KSB:
+The inherent risks of data such as incomplete data, ethical data sources and how to ensure data quality.
+
+Common Data Quality Risks
+
+The session identified several common issues:
+
+missing records,
+missing attributes,
+duplicate elements,
+outdated values,
+incorrect values,
+illogical event ordering,
+non-standard formats.
+
+These issues can severely affect:
+
+analytics accuracy,
+business decisions,
+compliance,
+automation systems.
+Data Quality Metrics and Risk
+Accuracy
+
+Incorrect data creates false conclusions.
+
+Integrity
+
+Missing information reduces completeness.
+
+Consistency
+
+Different formats create conflicts across systems.
+
+Timeliness
+
+Old data creates unreliable reporting.
+
+Reliability
+
+Unstable data cannot support strategic decisions.
+
+Ethical and Governance Considerations
+
+Data stewardship was introduced as a critical governance function.
+
+Responsibilities include:
+
+maintaining quality,
+ensuring compliance,
+protecting integrity,
+enabling accountability.
+Data Stewardship Best Practices
+data ownership,
+validation processes,
+feedback loops,
+cleansing initiatives,
+reporting improvements,
+governance standards.
+FAIR Data Principles
+
+Four FAIR principles were discussed:
+
+Principle	Meaning
+Findable	Data can be discovered easily
+Accessible	Authorised users can retrieve it
+Interoperable	Systems can exchange and interpret it
+Reusable	Data can be used repeatedly
+
+These principles improve:
+
+governance,
+integration,
+collaboration,
+long-term usability.
+Sustainability and Ethical Practice
+
+Sustainable data engineering also contributes to responsible data management.
+
+Examples included:
+
+reducing duplication,
+lifecycle management,
+rationalised storage,
+efficient transfer protocols.
+
+These reduce:
+
+energy consumption,
+storage waste,
+environmental impact.
+K18 — Streaming, Batch and On-Demand Data Movement
+
+KSB:
+How to use streaming, batching and on-demand services to move data from one location to another.
+
+Key Concepts
+
+Data movement between systems introduces quality risks if:
+
+formats differ,
+schemas conflict,
+encoding varies,
+validation is missing.
+
+Three major formats were examined:
+
+XML,
+CSV,
+JSON.
+XML Quality Challenges
+Common Problems
+parsing errors,
+encoding inconsistencies,
+schema violations.
+Mitigation Techniques
+schema validation,
+standardised encoding,
+sanitisation,
+structured parsers,
+testing.
+
+XML is common in:
+
+enterprise systems,
+APIs,
+configuration management.
+CSV Quality Challenges
+Common Problems
+inconsistent delimiters,
+missing headers,
+data type ambiguity,
+malformed records.
+Mitigation Techniques
+robust parsers,
+explicit schemas,
+validation rules,
+standardised formatting.
+
+CSV remains heavily used in:
+
+payroll exports,
+operational reporting,
+data migration.
+JSON Quality Challenges
+Common Problems
+deeply nested structures,
+inconsistent key naming,
+large file sizes,
+missing fields.
+Mitigation Techniques
+naming conventions,
+validation rules,
+streaming,
+pagination,
+compression.
+
+JSON is widely used in:
+
+APIs,
+NoSQL systems,
+web applications,
+event-driven systems.
+Practical Data Transfer Considerations
+
+Data engineers should:
+
+validate incoming records,
+standardise timestamps,
+support Unicode,
+manage schema evolution,
+optimise ingestion pipelines.
+K27 — Descriptive, Predictive and Prescriptive Analytics
+
+KSB:
+The principles of descriptive, predictive and prescriptive analytics.
+
+Relationship Between Data Quality and Analytics
+
+Analytics quality depends entirely on data quality.
+
+Poor data causes:
+
+inaccurate dashboards,
+biased models,
+unreliable predictions,
+misleading recommendations.
+Descriptive Analytics
+
+Uses historical data to explain:
+
+“What happened?”
+
+Examples:
+
+HR dashboards,
+operational reports,
+turnover summaries.
+
+Requires:
+
+accurate aggregation,
+standardised formats,
+reliable timestamps.
+Predictive Analytics
+
+Uses models to estimate:
+
+“What may happen?”
+
+Examples:
+
+employee churn prediction,
+forecasting,
+anomaly detection.
+
+Requires:
+
+clean training data,
+consistency,
+validated features.
+Prescriptive Analytics
+
+Uses predictions to guide:
+
+“What should we do?”
+
+Examples:
+
+staffing interventions,
+operational optimisation,
+targeted engagement strategies.
+
+High-quality data is essential because poor recommendations can:
+
+create unfair outcomes,
+increase business risk,
+reduce trust in AI systems.
+S7 — Working with SQL, NoSQL and Distributed Data Stores
+
+KSB:
+Work with different types of data stores, such as SQL, NoSQL, and distributed file system.
+
+Multiple Data Formats and Systems
+
+Modern organisations combine data from:
+
+enterprise platforms,
+payroll systems,
+feedback systems,
+APIs,
+cloud services.
+
+Different storage systems require different engineering approaches.
+
+Structured and Semi-Structured Data
+CSV
+
+Structured tabular format commonly used in SQL workflows.
+
+XML
+
+Semi-structured hierarchical format.
+
+JSON
+
+Flexible semi-structured format widely used in NoSQL systems.
+
+Interoperability
+
+A key engineering challenge is ensuring systems can:
+
+exchange,
+interpret,
+and process data consistently.
+
+Techniques include:
+
+APIs,
+metadata standards,
+schemas,
+semantic models,
+integration tooling.
+Semantic Validity
+
+Semantic validity ensures data accurately represents real-world meaning.
+
+Technologies introduced:
+
+RDF,
+SPARQL,
+OWL.
+
+These support:
+
+linked data,
+interoperability,
+shared understanding between systems.
+S15 — Optimising Data Ingestion
+
+KSB:
+Optimise data ingestion processes using batch, streaming and on-demand frameworks.
+
+Key Concepts
+
+Data ingestion pipelines must handle:
+
+multiple formats,
+inconsistent schemas,
+encoding differences,
+high data volumes,
+validation requirements.
+Data Wrangling and Cleansing
+
+Important ingestion activities include:
+
+removing duplicates,
+handling missing values,
+correcting data types,
+standardising formats,
+detecting anomalies.
+Example Tool
+
+Pandas in Python was referenced for:
+
+cleansing,
+transformation,
+preparation workflows.
+Ingestion Optimisation Techniques
+Batch Processing
+
+Useful for:
+
+scheduled imports,
+large historical datasets.
+Streaming
+
+Useful for:
+
+continuous ingestion,
+real-time updates,
+scalable processing.
+On-Demand Processing
+
+Useful for:
+
+APIs,
+dashboard refreshes,
+interactive systems.
+Large File Optimisation
+
+Several performance optimisation strategies were discussed:
+
+pagination,
+compression,
+distributed processing,
+streaming ingestion.
+
+These improve:
+
+memory efficiency,
+transfer speed,
+scalability.
+Green Data Transfer
+
+Sustainable ingestion techniques included:
+
+smart scheduling,
+efficient transfer protocols,
+compression algorithms,
+auditing transfer efficiency.
+Brotli Compression
+
+Introduced as a lossless compression method that:
+
+reduces transfer size,
+lowers bandwidth usage,
+decreases storage requirements.
+Overall Understanding
+
+High-quality data is foundational to:
+
+analytics,
+governance,
+machine learning,
+operational reporting,
+enterprise decision-making.
+
+Data engineers are responsible for:
+
+designing reliable ingestion pipelines,
+enforcing standards,
+improving interoperability,
+cleansing and validating data,
+monitoring quality continuously,
+supporting sustainable and ethical data practices.
+
+Strong data quality practices enable organisations to build:
+
+trustworthy data products,
+scalable analytics platforms,
+compliant governance frameworks,
+and reliable AI systems.

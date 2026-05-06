@@ -1,75 +1,583 @@
+Key Concepts
 
-Have created high level data architecture diagram for CRDW Workbench EUDA explaining how Power BI reports operate in context.
+Reliable data architectures are essential for handling:
 
-[L5DE.1.4 Updated slides.pdf](https://github.com/user-attachments/files/19410447/L5DE.1.4.Updated.slides.pdf)
+increasing complexity,
+rapid organisational change,
+growing data volumes,
+scalability requirements,
+operational reliability.
 
-1. Importance of Architecture in Data Systems
-John Zachman emphasizes architecture as the key to managing complexity and change in data systems.
+A key principle introduced was:
 
-Organizations need structured approaches to handle increasing complexity and rapid technological advancements.
+Architecture is the primary strategy for managing complexity and change.
 
-2. Learning Outcomes
-Understand standardized big data ecosystems and architectures.
+Why Architecture Matters
 
-Explore the three-layered architecture pattern for data management.
+Without strong architecture:
 
-Learn how microservices enable scalability and resilience.
+systems become fragmented,
+performance degrades,
+governance weakens,
+integrations fail,
+scaling becomes difficult.
 
-Understand architectural governance for reliability and compliance.
+Architecture provides:
 
-3. Types of Diagrams in System Design
-Architecture Diagrams: Define system constraints, stakeholder interactions, and abstract design.
+structure,
+standardisation,
+maintainability,
+resilience,
+operational clarity.
+Three-Layered Data Architecture
 
-Design Diagrams: Focus on technical implementation details.
+A layered architecture improves:
 
-Flowcharts: Represent processes and data flow.
+maintainability,
+separation of concerns,
+scalability,
+governance.
 
-System Component Diagrams: Show system parts and their relationships.
+Typical layers included:
 
-Misuse Deployment Diagrams: Identify security vulnerabilities.
+Layer	Purpose
+Data Source Layer	Raw operational and external data
+Processing Layer	Cleansing, transformation, enrichment
+Analytics Layer	Reporting, dashboards, machine learning
 
-4. Practical Use of Architecture Diagrams
-Diagrams clarify system structures and enable better collaboration.
+This structure supports:
 
-They help in decision-making by offering different perspectives.
+performance optimisation,
+clearer ownership,
+easier troubleshooting,
+scalable analytics delivery.
+Monitoring and Observability
 
-Tools for creating diagrams: LucidChart, Microsoft Visio, Draw.io, Dia.
+Reliable architectures require:
 
-5. Cloud Computing and Reliable Architectures
-Public cloud computing enhances scalability, security, automation, and cost-efficiency.
+monitoring,
+logging,
+observability,
+operational alerts.
 
-Considerations for cloud architectures include data storage, security, processing, and compliance.
+Public cloud considerations included:
 
-6. Enterprise Architecture & TOGAF
-TOGAF (The Open Group Architecture Framework) provides a structured approach to data architecture.
+monitoring systems,
+logging frameworks,
+automation,
+infrastructure as code.
 
-Four Domains of TOGAF:
+These improve:
 
-Business Architecture – Strategy and governance.
+uptime,
+fault detection,
+operational transparency.
+Data Observability
 
-Data Architecture – Logical and physical data assets.
+Data observability helps detect:
 
-Applications Architecture – Software systems and interactions.
+pipeline failures,
+stale datasets,
+schema drift,
+missing records,
+performance bottlenecks.
 
-Technology Architecture – Infrastructure (hardware, software, networks).
+This supports:
 
-7. Data Mesh and Decentralized Data Management
-Data Mesh shifts data ownership to domain teams for scalability and flexibility.
+proactive maintenance,
+improved reliability,
+faster incident resolution.
+Scalability and Performance
 
-Promotes self-service analytics, decentralized architecture, and governance frameworks.
+Reliable systems must scale across:
 
-8. Practical Activities
-Collaborate Task: Designing an architecture for a fitness tracking app.
+storage,
+compute,
+networking,
+ingestion pipelines.
 
-Research Activity: Identifying large-scale data quality issues and solutions.
+Cloud-native architectures improve:
 
-Hands-on Exercise: Applying TOGAF principles to database diagrams and data governance.
+elasticity,
+fault tolerance,
+distributed processing,
+high availability.
+K3 — Data Normalisation Principles
 
-9. Key Takeaways
-Architecture diagrams are crucial for managing complexity and change.
+KSB:
+Data normalisation principles and the advantages they achieve in databases for data protection, redundancy, and inconsistent dependency.
 
-Cloud computing provides reliable and scalable solutions for data architectures.
+Key Concepts
 
-TOGAF ensures structured governance and strategic alignment.
+Data architecture involves organising information logically across:
 
-Data Mesh enhances scalability and distributed data ownership.
+databases,
+warehouses,
+lakes,
+marts,
+APIs,
+distributed systems.
+
+Architecture diagrams demonstrate:
+
+relationships,
+dependencies,
+data movement,
+logical separation of systems.
+Data Layering and Structure
+
+The architecture examples showed how:
+
+raw data,
+cleansed data,
+historical records,
+analytical models
+
+are separated into different layers.
+
+This improves:
+
+consistency,
+maintainability,
+governance,
+redundancy management.
+Data Warehouse and Data Lake Concepts
+Data Lakes
+
+Store:
+
+raw structured data,
+semi-structured data,
+unstructured data.
+
+Optimised for:
+
+flexibility,
+scalability,
+large-scale ingestion.
+Data Warehouses
+
+Store:
+
+curated,
+structured,
+cleansed data.
+
+Optimised for:
+
+reporting,
+analytics,
+BI workloads.
+Time-Based Partitions
+
+Partitioning was introduced as a scalability technique.
+
+Benefits include:
+
+faster querying,
+improved storage management,
+reduced processing overhead,
+easier archival.
+Example
+
+Partitioning HR records by:
+
+year,
+month,
+department,
+can significantly improve analytics performance.
+Diagram-Based Modelling
+
+Architecture diagrams help engineers:
+
+visualise dependencies,
+identify redundancies,
+model integrations,
+communicate system structure clearly.
+K5 — Risks, Ethics and Data Quality
+
+KSB:
+The inherent risks of data such as incomplete data, ethical data sources and how to ensure data quality.
+
+Key Concepts
+
+Reliable architecture must address:
+
+security,
+governance,
+compliance,
+data integrity,
+operational risk.
+Architectural Governance
+
+Architectural governance ensures systems comply with:
+
+organisational standards,
+security requirements,
+regulatory obligations,
+operational best practices.
+
+Governance helps enforce:
+
+consistency,
+accountability,
+quality assurance.
+Threat-Oriented Architecture
+
+Misuse deployment diagrams were introduced to identify:
+
+vulnerabilities,
+attack paths,
+security weaknesses,
+exploit opportunities.
+
+These diagrams include:
+
+servers,
+databases,
+APIs,
+security controls,
+attackers,
+threat vectors.
+Security and Compliance
+
+Important cloud considerations included:
+
+access control,
+data protection,
+secure integration,
+compliance management.
+
+Examples include:
+
+GDPR,
+governance frameworks,
+authentication systems,
+secure APIs.
+Risk Reduction Through Architecture
+
+Good architecture reduces risks such as:
+
+single points of failure,
+insecure integrations,
+poor visibility,
+inconsistent governance,
+unreliable pipelines.
+TOGAF Governance Framework
+
+TOGAF (The Open Group Architecture Framework) was introduced as an enterprise architecture governance model.
+
+It includes domains for:
+
+business architecture,
+data architecture,
+application architecture,
+technology architecture.
+
+This creates structured governance across enterprise systems.
+
+K18 — Streaming, Batch and On-Demand Data Movement
+
+KSB:
+How to use streaming, batching and on-demand services to move data from one location to another.
+
+Key Concepts
+
+Reliable architectures must support movement of data between:
+
+applications,
+cloud services,
+APIs,
+databases,
+analytics systems,
+distributed platforms.
+
+Architecture diagrams visualised how data flows across systems.
+
+Integration Architecture
+
+Integration diagrams demonstrated:
+
+APIs,
+queues,
+topics,
+subscriptions,
+orchestration,
+event-driven communication.
+
+These support:
+
+scalable ingestion,
+distributed systems,
+asynchronous communication.
+Event-Driven Architecture
+
+Examples included:
+
+event subscriptions,
+messaging systems,
+API gateways,
+workflow orchestration.
+
+Benefits:
+
+decoupled systems,
+scalability,
+resilience,
+responsiveness.
+Public Cloud Architectures
+
+Cloud architecture considerations included:
+
+cloud storage,
+data integration,
+distributed processing,
+automation,
+logging,
+monitoring.
+
+Cloud platforms support:
+
+streaming workloads,
+scalable ingestion,
+on-demand processing.
+Containers and Deployment
+
+Containerised systems improve:
+
+portability,
+scalability,
+deployment consistency.
+
+Examples included:
+
+Docker,
+Kubernetes,
+CI/CD pipelines,
+Jenkins,
+GitHub integration.
+
+These enable reliable deployment of data products.
+
+K27 — Descriptive, Predictive and Prescriptive Analytics
+
+KSB:
+The principles of descriptive, predictive and prescriptive analytics.
+
+Key Concepts
+
+Reliable architectures support all analytics layers:
+
+reporting,
+machine learning,
+operational intelligence,
+decision support.
+Data Flow for Analytics
+
+Architecture diagrams demonstrated movement from:
+
+Raw data acquisition
+Data processing
+Data warehouses/lakes
+Data marts
+Analytical consumption
+
+This pipeline supports:
+
+descriptive reporting,
+predictive modelling,
+prescriptive insights.
+Machine Learning Integration
+
+The NextGen Fitness scenario introduced:
+
+wearable devices,
+ML algorithms,
+personalised recommendations,
+user interaction systems.
+
+This demonstrates how architectures support:
+
+predictive analytics,
+recommendation engines,
+personalised services.
+Data Mesh and Analytics
+
+Data Mesh promotes:
+
+decentralised ownership,
+domain-driven architecture,
+scalable analytics ecosystems.
+
+Benefits include:
+
+improved agility,
+scalable governance,
+faster data product delivery.
+S7 — Working with SQL, NoSQL and Distributed Data Stores
+
+KSB:
+Work with different types of data stores, such as SQL, NoSQL, and distributed file system.
+
+Key Concepts
+
+Enterprise architectures integrate multiple storage technologies:
+
+SQL databases,
+distributed storage,
+APIs,
+object stores,
+warehouses,
+lakes.
+Data Architecture Components
+
+Examples included:
+
+relational databases,
+data lakes,
+warehouses,
+marts,
+APIs,
+services,
+orchestration tools.
+
+This reflects real enterprise environments where multiple technologies coexist.
+
+UML Component Diagrams
+
+UML component diagrams were used to show:
+
+relationships between services,
+dependencies,
+provided interfaces,
+required interfaces.
+
+These diagrams help engineers:
+
+understand integrations,
+plan deployments,
+identify dependencies.
+Data Ecosystem Thinking
+
+Architectures should support:
+
+interoperability,
+modularity,
+distributed ownership,
+scalable storage.
+Data Mesh Principles
+
+Data Mesh introduces:
+
+decentralised ownership,
+domain-oriented design,
+data-as-a-product thinking.
+
+This supports large organisations where centralised data teams become bottlenecks.
+
+S15 — Optimising Data Ingestion
+
+KSB:
+Optimise data ingestion processes using batch, streaming and on-demand frameworks.
+
+Key Concepts
+
+Reliable ingestion requires:
+
+scalable architecture,
+orchestration,
+automation,
+monitoring,
+resilience.
+Integration Architecture Patterns
+
+Integration architecture diagrams showed:
+
+API gateways,
+queues,
+orchestration services,
+event hubs,
+backend systems.
+
+These patterns optimise:
+
+throughput,
+asynchronous ingestion,
+distributed communication.
+Infrastructure as Code
+
+Infrastructure automation improves:
+
+repeatability,
+deployment speed,
+consistency,
+scalability.
+
+Important for:
+
+cloud-native ingestion systems,
+CI/CD pipelines,
+container orchestration.
+Deployment Pipelines
+
+Examples included:
+
+GitHub,
+Jenkins,
+Docker,
+Kubernetes.
+
+Deployment pipelines automate:
+
+testing,
+builds,
+container deployment,
+environment consistency.
+Scalability Through Containers
+
+Containerisation supports:
+
+distributed ingestion,
+autoscaling,
+fault isolation,
+rapid deployment.
+Architecture Planning Before Technology Selection
+
+An important principle introduced:
+
+Understand the problem space before selecting technology.
+
+Questions engineers should ask:
+
+What problems exist?
+What assumptions are being made?
+How can the experience improve?
+What business outcomes are needed?
+
+This prevents:
+
+overengineering,
+unnecessary complexity,
+poor scalability decisions.
+Overall Understanding
+
+Reliable data architectures are the foundation of scalable, secure, maintainable enterprise data systems.
+
+Modern data engineers must understand:
+
+layered architectures,
+cloud-native systems,
+governance frameworks,
+distributed platforms,
+event-driven integration,
+deployment automation,
+observability,
+and scalable ingestion patterns.
+
+Architecture is not just technical documentation — it is a strategic tool for:
+
+managing complexity,
+improving reliability,
+enabling analytics,
+supporting governance,
+and delivering long-term business value.
